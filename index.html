@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/Stylesheet/style.css">
+  <link rel="stylesheet" href="/Stylesheet/media-querry.css">
+  <script src="./index.js" defer></script>
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <nav class="logo">
+        <img src="./images/logo.svg" alt="page-logo">
+      </nav>
+    </header>
+
+    <main>
+      <div class="text">
+        <h1><span>We are launching</span> soon !</h1>
+        <h4>Subscribe and get notified</h4>
+      </div>
+      <form action= "#"  class="action-form" method="post" onsubmit="return validateEmail()">
+        <input type="email" id="email" autocomplete="on" placeholder="Your email address...">
+        <small id="small"></small>
+        <input type="submit" id="submit" value="Notify Me"></input>
+      </form>
+      <figure>
+        <div class="illustration">
+          <img src="./images/illustration-dashboard.png">
+        </div>       
+      </figure>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Austin</a>.
+      </p>
+      &copy; Copyright Ping. All rights reserved.
+    </footer>
+  </div>
+
+</body>
+
+</html>
