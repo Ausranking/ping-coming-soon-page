@@ -22,7 +22,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://https://github.com/Ausranking/ping-coming-soon-page.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://ping-coming-soon-page-six-delta.vercel.app/)
 
 ## My process
 
